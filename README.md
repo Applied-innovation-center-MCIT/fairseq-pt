@@ -13,6 +13,8 @@
 # AIC Related Contribution Rules:
 Please follow the main fairseq contributions rules if you will modify on fairseq; otherwise, put you code under fairseq-pt/examples and use the --user-dir argument.
 
+# FairSeq
+
 
 Fairseq(-py) is a sequence modeling toolkit that allows researchers and
 developers to train custom models for translation, summarization, language
