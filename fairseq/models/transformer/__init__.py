@@ -12,32 +12,6 @@ from .transformer_config import (
 )
 from .transformer_decoder import TransformerDecoder, TransformerDecoderBase, Linear
 from .transformer_encoder import TransformerEncoder, TransformerEncoderBase
-from .transformer_mcolt import (
-    transformer_big,
-    transformer_mid_75e6d,
-    transformer_big_16e4d,
-    transformer_big_16e6d, 
-    transformer_big_emb512,
-    transformer_big_no_share,
-    transformer_big_t2t_12e12d, 
-    transformer_bigger, 
-    transformer_bigger_16384, 
-    transformer_bigger_no_share, 
-    transformer_deeper, 
-    transformer_deeper_no_share, 
-    transformer_fh_16x128_layer_12, 
-    transformer_fh_16x256_layer_12, 
-    transformer_fixed_multihead_base, 
-    transformer_fixed_multihead_embed_1024_nhead_16_hdim_128, 
-    transformer_mid_25e6d,
-    transformer_mid_25e6d_e3072_d4096,
-    transformer_mid_25e6d_ed3072,
-    transformer_mid_50e3d_ed3072, 
-    transformer_mid_50e6d,
-    mix_transformer_mid_50e6d,
-    mix_transformer_mid_50e6d_3000fix_10000decay, 
-    re_zero_transformer_mid_50e6d
-)
 from .transformer_legacy import (
     TransformerModel,
     base_architecture,
@@ -72,29 +46,5 @@ __all__ = [
     "transformer_wmt_en_de_big_t2t",
     "DEFAULT_MAX_SOURCE_POSITIONS",
     "DEFAULT_MAX_TARGET_POSITIONS",
-    "DEFAULT_MIN_PARAMS_TO_WRAP",
-    "transformer_big",
-    "transformer_mid_75e6d",
-    "transformer_big_16e4d",
-    "transformer_big_16e6d", 
-    "transformer_big_emb512",
-    "transformer_big_no_share",
-    "transformer_big_t2t_12e12d", 
-    "transformer_bigger", 
-    "transformer_bigger_16384", 
-    "transformer_bigger_no_share", 
-    "transformer_deeper", 
-    "transformer_deeper_no_share", 
-    "transformer_fh_16x128_layer_12", 
-    "transformer_fh_16x256_layer_12", 
-    "transformer_fixed_multihead_base", 
-    "transformer_fixed_multihead_embed_1024_nhead_16_hdim_128", 
-    "transformer_mid_25e6d",
-    "transformer_mid_25e6d_e3072_d4096",
-    "transformer_mid_25e6d_ed3072",
-    "transformer_mid_50e3d_ed3072", 
-    "transformer_mid_50e6d",
-    "mix_transformer_mid_50e6d",
-    "mix_transformer_mid_50e6d_3000fix_10000decay", 
-    "re_zero_transformer_mid_50e6d"
+    "DEFAULT_MIN_PARAMS_TO_WRAP"
 ]
