@@ -58,6 +58,7 @@ from .multilingual.sampled_multi_dataset import SampledMultiDataset
 from .multilingual.sampled_multi_epoch_dataset import SampledMultiEpochDataset
 from .fasta_dataset import FastaDataset, EncodedFastaDataset
 from .transform_eos_concat_langpair_dataset import TransformEosConcatLangPairDataset
+from .subsample_language_pair_dataset import SubsampleLanguagePairDataset
 
 from .iterators import (
     CountingIterator,
@@ -127,4 +128,5 @@ __all__ = [
     "TransformEosConcatLangPairDataset",
     "TruncateDataset",
     "TruncatedDictionary",
+    "SubsampleLanguagePairDataset"
 ]
